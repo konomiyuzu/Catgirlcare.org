@@ -1,0 +1,46 @@
+body {
+    background-color: #eef2ff;
+    text-align: center
+}
+
+#guide {
+    display:inline-block;
+    font-family: serif;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    /*font-weight: bold;*/
+    padding: 2em;
+    text-align: justify;
+}
+#guide h1 {
+    font-size: 7em;
+    text-align: center;
+    line-height: 0.5em;
+}
+@media (max-width: 800px) {
+    #guide h1 {
+        line-height: 1em;
+    }
+}
+#guide h2 {
+    text-align: right;
+}
+#guide h3 {
+    font-size: 2em;
+    margin-top:0px;
+}
+
+#guide hr {
+    border: none;
+    height: 4px;
+    color: #223;
+    background-color: #223;
+    margin: 1em;
+    border-radius: 30px;
+}
+
+.header {
+    display:flex;
+    /*height: 150px;*/
+    justify-content:space-between;
+}
